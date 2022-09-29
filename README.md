@@ -1,1 +1,3 @@
-# Skull-Stripping-Paper
+# Automatic Skull Stripping and Brain Segmentation with U-Net in MRI Database
+
+Skull stripping has an important in neuroimaging workflow. Skull stripping is a time-consuming process in the Magnetic resonance imaging (MRI). For this reason, skull stripping and brain segmentation are aimed in this study. For the this purpose, the U-NET architecture design, which is one of the frequently used models in the field of medical image segmentation, was used. Also, different loss functions such as Cross Entropy (CE), Dice, IoU, Tversky, Focal Tversky and their compound forms were tested on U-Net architecture design. The compound loss function of CE and Dice loss functions achieved the best performace with the average dice score of 0.976, average IoU score of 0.964, sensitivity of 0.972, specificity of 0.985, precision of 0.960 and accuracy of 0.981. As a result, skull stripping was performed to facilitate the detection of brain diseases.
